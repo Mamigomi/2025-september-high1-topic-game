@@ -21,311 +21,289 @@ const questionPanel = document.querySelector(".question-panel");
 const quizData = [
   {
     number: 18,
-    title: "18번 지문 핵심 내용",
-    passage: "학생회장이 교장 선생님께 현재 오후 5시에 닫는 학교 도서관을 오후 7시까지 연장해 달라고 요청한다. 방과 후 공부와 연구를 하는 학생들에게 더 조용하고 유용한 학습 시간이 필요하다는 내용이다.",
+    passage: `Dear Principal Jones, I hope this message finds you well. As student council president, I am reaching out to discuss an important matter regarding our school library’s current operating hours. At present, the library closes at 5 p.m., which many students feel limits their ability to fully use its resources for study and research after regular class hours. This is particularly challenging for those preparing for college entrance exams or working on academic projects that demand a quiet and resourceful environment. Therefore, I’d like to ask you to extend the library’s operating hours to 7 p.m. This change would greatly benefit students by providing additional time to focus on their academic goals. I hope you will consider this proposal as a step toward improving our academic environment and better supporting our needs. Sincerely, Eric Park, Student Council President`,
     choices: [
-      "학생들의 학업적 이익을 위해 도서관 운영 시간 연장을 요청함",
-      "학교 도서관의 장서 부족 문제 해결을 요청함",
-      "학생회장 선거 절차의 공정성 강화를 제안함",
-      "대학 입시 준비를 위한 새 시험 과목 개설을 요청함",
-      "방과 후 학술 프로젝트 평가 기준 완화를 건의함"
+      "A student council president’s request to extend library hours for students’ academic benefit",
+      "A student council president’s complaint about the lack of new books in the library",
+      "A proposal to replace the school library with online research tools",
+      "A request to shorten regular class hours for college entrance exam preparation",
+      "A plan to organize student council elections in a more efficient way"
     ],
     answerIndex: 0,
-    explanation: "핵심은 도서관을 더 오래 열어 학생들의 학업 목표 달성을 돕자는 요청입니다."
+    explanation: "학생회장이 방과 후 학습과 연구를 돕기 위해 도서관 운영 시간을 오후 7시까지 연장해 달라고 요청하는 글입니다."
   },
   {
     number: 19,
-    title: "19번 지문 핵심 내용",
-    passage: "화자는 뮤지컬 The Wizard of Oz 오디션 결과를 기다리며 긴장한다. 전화가 온 뒤 자신이 배역을 받았다는 소식을 듣고 공연에 참여할 수 있다는 사실에 설렘을 느낀다.",
+    passage: `I glanced at the clock on the wall. 10:00. That meant the casting director would call very soon with the results of my first audition for a musical part in The Wizard of Oz. I felt shaky all over, chewing my thumbnail and jiggling my feet. Finally, the telephone rang. While I was coming round, Dad answered. I heard him say, “Ahh, thank you. I’ll let her know ...” As I got to the bottom of the stairs, he was just putting the phone down. “That was The Wizard of Oz. You’re second senior munchkin,” he announced. I got a little rush of excitement, knowing I was in—that whatever happened I could be involved in one of the productions.`,
     choices: [
-      "오디션에서 배역을 받아 설레는 학생의 경험",
-      "무대 공포증을 극복하기 위한 연습 과정",
-      "가족의 반대로 공연 참가를 포기한 경험",
-      "뮤지컬 제작비 부족으로 공연이 취소된 사건",
-      "친구의 성공을 질투하다가 반성하는 이야기"
+      "A student’s excitement at being chosen for a role in The Wizard of Oz",
+      "A director’s difficulty in choosing actors for a school musical",
+      "A student’s regret after missing an important audition call",
+      "A family argument over whether a child should join a musical",
+      "A performer’s fear of forgetting lines during a live production"
     ],
     answerIndex: 0,
-    explanation: "결과를 기다리는 긴장감과 배역을 얻은 뒤의 기쁨이 중심입니다."
+    explanation: "오디션 결과를 초조하게 기다리던 학생이 배역을 받았다는 소식을 듣고 설레는 장면이 중심입니다."
   },
   {
     number: 20,
-    title: "20번 지문 핵심 내용",
-    passage: "수업의 첫 몇 분은 수업 전체 분위기를 결정한다. 교사가 시작 루틴을 마련하면 학생들이 이전 수업에서 벗어나 새 학습에 집중할 준비를 할 수 있다.",
+    passage: `Inefficient teachers overlook the potential power of the opening minutes of class. Often, if students are quiet enough and if there are many pressing demands on a teacher’s time at that moment, more than ten minutes can disappear before class starts. It’s no wonder that students are late for class; they have little reason to be on time. You can use the first ten minutes to get your class off to a great start, or you can choose to waste this time. The first minutes set the tone for the rest of the class. If you are prepared for class and have taught your students an opening routine, they can use this brief time to make mental and emotional transitions from the last class or subject and prepare to focus on learning new material. In summary, you should establish an opening routine to develop your class with an effective start.`,
     choices: [
-      "학생 지각을 줄이기 위한 엄격한 벌점 제도의 필요성",
-      "수업 시작 루틴을 마련하는 것의 중요성",
-      "교사의 행정 업무를 줄이는 시간표 개편의 효과",
-      "쉬는 시간을 늘려 학습 피로를 낮추는 방법",
-      "수업 후 복습 과제를 표준화해야 하는 이유"
+      "The importance of establishing an effective opening routine in class",
+      "The need to punish students who arrive late to every class",
+      "The benefits of giving teachers fewer administrative duties",
+      "The value of extending breaks between different school subjects",
+      "The reasons students should choose their own classroom rules"
     ],
-    answerIndex: 1,
-    explanation: "글은 수업 초반을 낭비하지 말고 효과적인 시작 루틴을 세우라고 말합니다."
+    answerIndex: 0,
+    explanation: "수업 첫 몇 분이 전체 분위기를 정하므로 효과적인 시작 루틴을 마련해야 한다는 내용입니다."
   },
   {
     number: 21,
-    title: "21번 지문 핵심 내용",
-    passage: "우리 몸을 이루는 원자들은 우리가 소유한 것이 아니라 잠시 빌린 것이다. 원자들은 사람과 자연, 우주 전체를 오가며 오래전부터 계속 순환한다.",
+    passage: `Many atoms in your body are nearly as old as the universe itself. When you breathe, for example, only some of the atoms that you inhale are exhaled in your next breath. The remaining atoms are taken into your body to become part of you, and they later leave your body by various means. You don’t “own” the atoms that make up your body; you borrow them. We all share from the same atom pool because atoms forever travel around, within, and among us. Atoms cycle from person to person as we breathe and as our sweat is evaporated. We recycle atoms on a grand scale. The origin of the lightest atoms goes back to the origin of the universe, and most heavier atoms are older than the Sun and Earth. There are atoms in your body that have existed since the first moments of time, recycling throughout the universe among limitless forms, both nonliving and living. You’re the present caretaker of the atoms in your body. There will be many who will follow you.`,
     choices: [
-      "인간의 호흡 방식이 운동 능력에 미치는 영향",
-      "우주 탐사가 인체 연구에 제공하는 새로운 자료",
-      "우리 몸의 원자는 고대부터 존재하며 우주 전체에서 순환함",
-      "생명체마다 서로 다른 원자 구조를 갖는 이유",
-      "태양 에너지가 지구의 물질 형성에 끼친 직접 영향"
+      "The atoms in our bodies are ancient and endlessly recycled across the universe",
+      "The human body creates completely new atoms every time we breathe",
+      "Atoms in living things are fundamentally different from atoms in nonliving things",
+      "The Sun and Earth are the original sources of all atoms in the human body",
+      "People can permanently own the atoms that make up their bodies"
     ],
-    answerIndex: 2,
-    explanation: "몸속 원자의 오래된 기원과 끝없는 순환이 주제입니다."
+    answerIndex: 0,
+    explanation: "우리 몸의 원자는 우리가 소유한 것이 아니라 우주 전체에서 오래전부터 순환해 온 물질이라는 점이 핵심입니다."
   },
   {
     number: 22,
-    title: "22번 지문 핵심 내용",
-    passage: "정원 가꾸기는 파기, 심기, 물주기 등 다양한 움직임을 포함해 신체 건강에 좋다. 또한 식물을 돌보는 활동은 마음을 차분하게 하고 스트레스와 불안을 줄인다.",
+    passage: `The act of gardening itself is a fantastic form of physical activity. It involves a range of motions, from digging and planting to watering and harvesting. These activities help improve strength, flexibility, and endurance. You might not realize it, but small tasks like weeding or turning compost can burn many calories. Gardening is particularly beneficial for those who find traditional exercise challenging. It's a low-impact way to stay active and fit, making it accessible for people of all ages and physical abilities. Besides physical health, gardening has profound mental health benefits. Tending to plants can be incredibly calming and meditative. It allows you to focus on the present moment, reducing stress and anxiety. The repetitive tasks involved in gardening can induce a state of mindfulness, similar to meditation. Studies have shown that spending time in nature, even in a small garden, can elevate mood, improve cognition, and reduce depression symptoms. The sense of accomplishment from watching your plants grow and thrive can also boost self-esteem and overall well-being.`,
     choices: [
-      "원예는 신체적 운동과 정신적 건강에 모두 도움이 됨",
-      "정원 식물의 종류가 토양 산도에 따라 달라짐",
-      "실내 운동보다 야외 운동이 항상 더 위험함",
-      "농업 기술 발달이 식량 생산량을 증가시킴",
-      "도시 정원이 부동산 가격에 미치는 경제적 효과"
+      "Gardening provides both physical exercise and mental health benefits",
+      "Gardening is useful only when it is performed as intense athletic training",
+      "Traditional exercise is always less effective than outdoor gardening",
+      "The main purpose of gardening is to increase agricultural profit",
+      "Plant growth depends more on human emotions than on natural conditions"
     ],
     answerIndex: 0,
-    explanation: "원예의 신체적 효과와 정신 건강 효과를 함께 설명합니다."
+    explanation: "원예가 신체 활동이 될 뿐 아니라 스트레스 감소, 기분 개선 등 정신 건강에도 도움을 준다는 글입니다."
   },
   {
     number: 23,
-    title: "23번 지문 핵심 내용",
-    passage: "인간은 감각만으로는 지각할 수 없는 자연 현상을 도구로 바꾸어 관찰해 왔다. 망원경, 자외선 이미지, 들리지 않는 소리를 들을 수 있게 하는 장치가 그 예이다.",
+    passage: `For many centuries, humans have taken advantage of tools that translate and bring into our perception natural phenomena that we can't perceive with our senses. In some cases, this consists of simply amplifying signals that feed into our normal sensory inputs (e.g., telescopes can bring into clear view that which is too far away for our eyes to perceive on their own). Other instruments turn signals that we cannot perceive into ones that we can observe. Some of these take the form of expanding the reach of our current senses, such as creating visible images based on the ultraviolet spectrum of light or changing sounds that are normally outside the range of what human ears can hear into audible signals. Alternatively, some instruments measure properties for which we have no sensory capacity at all and change them into that which we can observe.`,
     choices: [
-      "과학 도구는 보이지 않는 현상을 지각 가능한 형태로 바꾸어 인간의 감각을 확장함",
-      "인간의 감각은 모든 자연 현상을 정확히 파악할 수 있음",
-      "망원경은 과학 도구 중 가장 오래된 발명품임",
-      "소리 연구는 빛 연구보다 과학적으로 더 중요함",
-      "자연 현상은 관찰 도구 없이 해석해야 객관적임"
+      "Scientific tools extend human senses by translating unseen phenomena into perceivable forms",
+      "Human senses are accurate enough to observe all natural phenomena without tools",
+      "Scientific instruments are valuable mainly because they replace human curiosity",
+      "Telescopes are the only tools that can expand the range of human perception",
+      "Invisible natural phenomena should not be studied through technological devices"
     ],
     answerIndex: 0,
-    explanation: "도구가 인간 감각의 한계를 보완하고 확장한다는 내용입니다."
+    explanation: "과학 도구가 감각으로 직접 알 수 없는 현상을 볼 수 있거나 들을 수 있는 형태로 바꾸어 준다는 내용입니다."
   },
   {
     number: 24,
-    title: "24번 지문 핵심 내용",
-    passage: "동물 실험 옹호자들은 동물 실험과 의학 발전 사이의 상관관계를 근거로 동물 실험의 기여를 주장한다. 반대자들은 법적 요구 때문에 상관관계가 생겼을 뿐이며 임상 발견의 역할도 컸다고 반박한다.",
+    passage: `Many opponents of animal experimentation argue that not only is modern medicine not the only cause for the decline in mortality, many medical advances that did contribute to human health were not the result of animal experimentation. Defenders of research have claimed that since there is a strong correlation between the practice of animal experimentation and medical advancement, the former caused the latter. Opponents of research reject this inference. After all, we have independent reasons to expect these phenomena to be correlated. Since the law prescribes that all new drugs, prosthetic devices, and surgical techniques be tried on animals before they are used in humans, we will subsequently find that all medical advances are correlated with prior experimentation on animals. Consequently, the correlation between animal experimentation and medical discovery is the result of legal necessity, not evidence that animal experimentation led to medical advances. Moreover, several influential physicians have offered historical evidence that animal experimentation has not been as responsible for biomedical discovery as defenders suggest. They claim that clinical discoveries played a more substantial role than animal researchers have led us to believe.`,
     choices: [
-      "동물 실험이 실제로 의학 발전에 기여했는지를 둘러싼 논쟁",
-      "모든 신약 개발에서 임상 시험을 금지해야 하는 이유",
-      "동물 보호법이 농업 생산성에 미친 긍정적 영향",
-      "의학 연구에서 통계 자료를 사용하지 말아야 하는 근거",
-      "수술 기술 발전이 병원 운영비를 낮춘 과정"
+      "The debate over whether animal experimentation truly contributes to medical advances",
+      "The legal process of approving animal protection organizations",
+      "The reason modern medicine has completely eliminated human mortality",
+      "The historical development of prosthetic devices for animal patients",
+      "The advantages of replacing clinical discoveries with animal research"
     ],
     answerIndex: 0,
-    explanation: "동물 실험과 의학 발전의 관계를 두고 양측 주장이 대립합니다."
+    explanation: "동물 실험과 의학 발전의 상관관계가 실제 인과관계인지에 대한 찬반 논쟁이 중심입니다."
   },
   {
     number: 26,
-    title: "26번 지문 핵심 내용",
-    passage: "Roger Payne은 혹등고래의 길고 복잡한 소리인 고래 노래를 발견하고, 이를 통해 고래가 의사소통한다는 것을 보여 주었다. 그의 앨범과 연구, Ocean Alliance 설립은 고래 보호 운동과 해양 포유류 보호법에 기여했다.",
+    passage: `Roger Payne was born in Manhattan in 1935. He studied biology at Harvard University and eventually earned his Ph.D. from Cornell University in 1961. In 1967, he discovered that humpback whales make long and complex sounds. They’re known as “whale songs,” and he showed that whales use them to communicate. Then in 1970, he released an album Songs of the Humpback Whale, which became a surprise hit and helped start the global “Save the Whales” movement. The following year, he founded Ocean Alliance to protect whales and the earth’s oceans, and he used new, safe methods to study whales without harming them. Over his career, he led more than 100 research trips worldwide, including the Voyage of the Odyssey from 2000 to 2005, which studied ocean pollution. His work helped make laws that protect marine mammals, which finally led to the global ban on commercial whaling in 1986.`,
     choices: [
-      "혹등고래 연구와 해양 보전에 기여한 Roger Payne의 업적",
-      "고래 사육 산업을 확대하려 한 Roger Payne의 사업 계획",
-      "해양 오염 조사를 중단하게 된 연구자의 실패 경험",
-      "고래 노래를 이용한 상업 음악 시장의 성장 과정",
-      "맨해튼의 대학들이 생물학 교육을 개편한 배경"
+      "Roger Payne’s contributions to whale research and ocean conservation",
+      "Roger Payne’s effort to build commercial whale-watching businesses",
+      "The decline of public interest in humpback whale songs after 1970",
+      "The development of harmful methods for studying marine mammals",
+      "The history of Harvard University’s biology program in the 1930s"
     ],
     answerIndex: 0,
-    explanation: "Roger Payne의 고래 소리 연구와 고래 보호 활동이 중심입니다."
+    explanation: "Roger Payne의 혹등고래 소리 연구와 고래 보호 및 해양 보전에 대한 기여를 소개하는 글입니다."
   },
   {
     number: 29,
-    title: "29번 지문 핵심 내용",
-    passage: "대형 초식 포유류는 위험에 반응하는 방식이 다르다. 가젤처럼 예민하고 공포에 잘 빠지며 도망치려는 동물은 우리에 가두기 어렵고, 그래서 인간이 길들이지 못했다.",
+    passage: `Big mammalian herbivore species react to danger from predators or humans in different ways. Some species are nervous, fast, and programmed for instant flight when they perceive a threat. Other species are slower, less nervous, seek protection in herds, stand their ground when threatened, and don’t run until necessary. Naturally, the nervous species are difficult to keep in captivity. If put into an enclosure, they are likely to panic, and either die of shock or hit themselves repeatedly to death against the fence in their attempts to escape. That’s true, for example, of gazelles, which for thousands of years were the most frequently hunted game species in some parts of the Fertile Crescent. There is no mammal species that the first settled peoples of that area had more opportunity to domesticate than gazelles. But no gazelle species has ever been domesticated. Just imagine trying to herd an animal that runs away, blindly hits itself against walls, can leap up to nearly 30 feet, and can run at a speed of 50 miles per hour!`,
     choices: [
-      "초식동물의 무리 생활이 사냥 성공률을 높이는 이유",
-      "가젤이 긴장되고 쉽게 공포에 빠지는 성질 때문에 길러지지 못한 이유",
-      "가젤이 사막 환경에서 물을 저장하는 방식",
-      "농경 사회가 육식동물을 먼저 길들인 역사",
-      "포유류의 점프 능력이 진화 속도를 결정하는 과정"
+      "The failure to domesticate gazelles due to their nervous and panicked nature",
+      "The usefulness of gazelles as the first domesticated animals in farming societies",
+      "The hunting techniques that made gazelles easy for humans to capture alive",
+      "The physical similarities between gazelles and other slow herd animals",
+      "The reasons all herbivores react to danger in exactly the same way"
     ],
-    answerIndex: 1,
-    explanation: "가젤의 예민하고 도망 중심적인 성향이 가축화 실패의 이유로 제시됩니다."
+    answerIndex: 0,
+    explanation: "가젤은 위협을 받으면 쉽게 공포에 빠지고 도망치려 하므로 길들이기 어려웠다는 내용입니다."
   },
   {
     number: 30,
-    title: "30번 지문 핵심 내용",
-    passage: "자원이 부족할 때 사람들은 생존을 위해 나누고 협력하는 경향이 크다. 반대로 풍요로워질수록 담장과 보안을 높이고 타인과의 연결이 줄어들 수 있다.",
+    passage: `For a species born in a time when resources were limited and dangers were great, our natural tendency to share and cooperate is complicated when resources are plenty and outside dangers are few. When we have less, we tend to be more open to sharing what we have. Certain nomadic tribes don’t have much, yet they are happy to share because it is in their interest to do so. If you happen upon them in your travels, they will open up their homes and give you their food and hospitality. It’s not just because they are nice people; it’s because their survival depends on sharing, for they know that they may be the travelers in need of food and shelter another day. Ironically, the more we have, the bigger our fences, the more sophisticated our security to keep people away and the less we want to share. Our desire for more, combined with our reduced physical interaction with the “common folk,” starts to create a disconnection or blindness to reality.`,
     choices: [
-      "풍요로움이 나눔을 줄이고 사회적 단절을 키우는 현상",
-      "유목민이 정착 농업을 선택하게 된 경제적 이유",
-      "여행자가 낯선 문화에 적응하는 데 필요한 언어 능력",
-      "도시 보안 기술이 범죄율을 완전히 없애는 과정",
-      "자원 부족이 항상 개인주의를 강화한다는 주장"
+      "How abundance reduces sharing and increases social disconnection",
+      "Why nomadic tribes refuse to share food with unfamiliar travelers",
+      "How advanced security systems make communities more cooperative",
+      "Why physical interaction with others increases as wealth grows",
+      "How limited resources always destroy the need for cooperation"
     ],
     answerIndex: 0,
-    explanation: "가진 것이 많아질수록 공유와 상호작용이 줄어드는 역설을 설명합니다."
+    explanation: "자원이 부족할 때는 나눔이 생존에 중요하지만, 풍요로워질수록 공유와 연결이 줄어든다는 역설을 설명합니다."
   },
   {
     number: 31,
-    title: "31번 지문 핵심 내용",
-    passage: "좋은 일이나 나쁜 일이 기분에 영향을 주지만, 인간은 시간이 지나면 자신의 기본 행복 수준으로 돌아간다. 첫사랑의 황홀함이나 이별의 절망도 결국 약해진다.",
+    passage: `Whether we feel happy or sad, content or discontent, is not determined merely by each individual successive moment of life experience—a good thing happens and I'm happy, a bad thing happens and I'm sad. While our experiences affect our mood, we are not blown in a completely new direction by each gust of wind. As humans, we adjust—to new information and events both good and bad—and return to our personal default level of well-being. There will be highs and lows, but over time, like water seeking its own level, we are pulled toward our baseline—back up after bad news and back down after good. The euphoria of first love fades, and so does the despair of a break-up. This tendency is best seen with little kids and their toy joy: When they get what they've longed for, they believe they will be happy for the rest of their lives. And for the first few minutes of the rest of their lives, they are. But then the kids—like adults—adapt.`,
     choices: [
-      "강한 감정은 시간이 지나도 절대 약해지지 않음",
-      "행복은 오직 연속된 좋은 사건에 의해 결정됨",
-      "인간이 행복의 기준선으로 돌아가는 경향",
-      "어린이는 어른보다 감정 변화가 전혀 없음",
-      "물질적 보상이 장기 행복을 영구히 보장함"
+      "Human tendency to return to a baseline level of happiness",
+      "The permanent emotional effects of every good and bad event",
+      "The reason children feel less joy from toys than adults do",
+      "The importance of avoiding all negative experiences in life",
+      "The way romantic love prevents people from adapting to change"
     ],
-    answerIndex: 2,
-    explanation: "새 사건에 적응한 뒤 기본적인 행복 수준으로 돌아가는 경향이 주제입니다."
+    answerIndex: 0,
+    explanation: "좋고 나쁜 사건에 흔들리더라도 시간이 지나면 각자의 기본 행복 수준으로 돌아가는 경향이 핵심입니다."
   },
   {
     number: 32,
-    title: "32번 지문 핵심 내용",
-    passage: "깨어 있는 시간이 길어질수록 혈액에 아데노신이 쌓이고, 이는 잠을 자야 한다는 신호와 관련된다. 잠을 자는 동안 아데노신이 분해되며, 수면 부족은 결국 몸에 누적된다.",
+    passage: `Although you may put off going to sleep in order to squeeze more activities into your day, eventually your need for sleep becomes overwhelming and you are forced to get some sleep. This daily drive for sleep appears to be due, in part, to a compound known as adenosine. This natural chemical builds up in your blood as time awake increases. While you sleep, your body breaks down the adenosine. Thus, this molecule may be what your body uses to keep track of lost sleep and to trigger sleep when needed. An accumulation of adenosine and other factors might explain why, after several nights of less than optimal amounts of sleep, you build up a sleep debt that you must make up by sleeping longer than normal. Because of such built-in molecular feedback, you can't become accustomed to getting less sleep than your body needs. Eventually, a lack of sleep catches up with you.`,
     choices: [
-      "수면 조절과 수면 부채에서 아데노신의 역할",
-      "카페인이 모든 사람에게 같은 각성 효과를 내는 이유",
-      "낮잠이 밤잠을 완전히 대체할 수 있는 과학적 근거",
-      "운동량이 많을수록 수면이 불필요해지는 과정",
-      "수면 습관이 유전과 무관하게 형성되는 방식"
+      "The role of adenosine in regulating sleep and sleep debt",
+      "The benefits of training the body to need less sleep permanently",
+      "The reason sleep debt disappears without additional rest",
+      "The effect of exercise on removing all chemicals from the blood",
+      "The way daily activities prevent the body from tracking lost sleep"
     ],
     answerIndex: 0,
-    explanation: "아데노신 축적과 분해가 잠의 필요와 수면 부채를 설명하는 핵심입니다."
+    explanation: "깨어 있는 동안 아데노신이 쌓이고 잠을 자며 분해되는 과정이 수면 욕구와 수면 부채를 설명합니다."
   },
   {
     number: 33,
-    title: "33번 지문 핵심 내용",
-    passage: "어떤 수치가 정확한지는 사용 목적에 따라 달라진다. 지구와 태양 사이의 거리는 일출 시간을 아는 데는 충분히 정확할 수 있지만, 태양 가까이 위성을 보내려면 더 높은 정확도가 필요하다.",
+    passage: `One of the things that makes uncertainty difficult for members of the public to appreciate is that the significance of uncertainty is relative. Take, for example, the distance between Earth and the sun: 1.49597 x 10⁸ km, as measured at one point during the year. This seems relatively precise; after all, using six significant digits means I know the distance to an accuracy of one part in a million or so. However, if the next digit is uncertain, that means the uncertainty in knowing the precise Earth-sun distance is larger than the distance between New York and Chicago! Whether or not the quoted number is “precise” therefore depends on what I'm intending to do with it. If I care only about what minute the sun will rise tomorrow, then the number quoted here is fine. If I want to send a satellite to orbit just above the sun, however, then I would need to know distances more accurately.`,
     choices: [
-      "천문학 계산은 일상생활에 전혀 활용되지 않음",
-      "숫자의 자릿수가 많을수록 모든 상황에서 충분히 정확함",
-      "불확실성의 중요성은 상황에 따라 달라짐",
-      "태양과 지구의 거리는 계절에 따라 변하지 않음",
-      "위성 발사는 거리 측정보다 날씨의 영향만 받음"
+      "Uncertainty is relative depending on context",
+      "The Earth-sun distance is too uncertain to be useful in any situation",
+      "Public understanding of science depends only on memorizing large numbers",
+      "Satellite missions require less precision than predicting sunrise times",
+      "The number of significant digits always proves that a value is perfectly exact"
     ],
-    answerIndex: 2,
-    explanation: "정밀도와 불확실성의 의미는 목적과 맥락에 따라 달라집니다."
+    answerIndex: 0,
+    explanation: "어떤 수치의 불확실성이 중요한지는 그 수치를 어떤 목적에 쓰는지에 따라 달라진다는 내용입니다."
   },
   {
     number: 34,
-    title: "34번 지문 핵심 내용",
-    passage: "재생 에너지 기반 시설을 만들려면 콘크리트, 철강, 희귀 광물 생산이 필요하고 이 과정에는 화석 연료가 쓰인다. 따라서 재생 에너지 전환을 빠르게 추진할수록 건설 과정에서 화석 에너지를 더 많이 사용할 수 있다.",
+    passage: `Richard Heinberg, an American journalist, argues that in building the renewable energy infrastructure to stop global warming, we are actually involved in one of the greatest change projects in human history. In addition to solar panels and wind turbines, we have to build an alternative transport infrastructure, farming procedures and industrial processes. This transformation cannot happen without fossil fuels. For instance, production of concrete structures and steel elements require amounts of energy that is only possible to produce with fossil energy. Production of solar panels requires scarce and expensive minerals which must be excavated, again requiring the use of fossil fuels. Thus, the harder we push towards a renewable energy system, the faster we have to use fossil energy for the construction process. This is not only expensive, but also an undermining factor for our efforts to cut global emissions. Heinberg remarks that the cost of building this new energy infrastructure is seldom counted in transition proposals, which tend to focus just on energy supply requirements.`,
     choices: [
-      "재생 에너지 전환이 화석 연료에 의존하는 역설",
-      "화석 연료가 이미 모든 산업에서 완전히 사라진 이유",
-      "풍력 터빈이 농업 생산 방식을 단순화하는 과정",
-      "태양광 패널이 희귀 광물 없이 만들어지는 원리",
-      "기후 변화 대응에서 교통 기반 시설은 중요하지 않음"
+      "The paradox of renewable energy requiring fossil fuels",
+      "The complete independence of renewable energy construction from fossil fuels",
+      "The reason solar panels can be produced without minerals or industrial processes",
+      "The limited need for transportation changes in stopping global warming",
+      "The advantage of ignoring construction costs in energy transition proposals"
     ],
     answerIndex: 0,
-    explanation: "재생 에너지 체계를 만들기 위해 오히려 화석 연료가 필요하다는 역설이 핵심입니다."
+    explanation: "재생 에너지 체계를 구축하는 과정에서 오히려 화석 연료가 필요하다는 역설을 설명합니다."
   },
   {
     number: 35,
-    title: "35번 지문 핵심 내용",
-    passage: "인간은 오래전부터 인간처럼 생각하는 기계와 존재를 상상해 왔다. Turing의 사고하는 기계에 대한 질문과 Turing test, McCarthy의 인공지능이라는 용어 제시 이후 AI는 지능적 기계를 만드는 연구가 되었다.",
+    passage: `Humans for centuries have dreamed of machines that could become intelligent and make human-like decisions. There have been myths about robots, automatons, and artificial beings since ancient Greece (e.g., the myth of Pandora, who released ills upon the world). Likewise, literature throughout history has dreamed of creating human-like creatures and thinking machines (e.g., Mary Shelley’s Frankenstein). In 1950, British mathematician Alan Turing asked whether machines could think and reason like humans and then developed the Turing test to measure a machine’s intelligence and whether the machines can think autonomously. A few years later, MIT professor John McCarthy coined “artificial intelligence,” replacing the previously used expression “automata studies.” Since then, artificial intelligence has become the study and practice of “making intelligent machines” that are programmed to think like humans—endowed by their creators with reasoning and learning.`,
     choices: [
-      "인공지능의 역사적 발전",
-      "고대 그리스 신화가 현대 문학에서 사라진 이유",
-      "자동 기계가 인간의 학습 능력을 낮춘 과정",
-      "컴퓨터가 발명되기 전에는 지능을 상상하지 못했다는 주장",
-      "문학 작품이 과학 용어를 모두 대체한 사례"
+      "The historical development of artificial intelligence",
+      "The disappearance of myths about artificial beings after ancient Greece",
+      "The reason literature prevented scientists from studying intelligent machines",
+      "The process by which robots replaced all human decision-making in 1950",
+      "The argument that artificial intelligence began only with modern smartphones"
     ],
     answerIndex: 0,
-    explanation: "인간형 기계에 대한 상상에서 현대 AI 개념까지의 흐름을 설명합니다."
+    explanation: "고대의 상상부터 Turing test와 McCarthy의 용어 제시에 이르기까지 인공지능 개념의 역사적 발전을 다룹니다."
   },
   {
     number: 36,
-    title: "36번 지문 핵심 내용",
-    passage: "사막거북은 더위를 피하고 대부분의 시간을 굴에서 보내며 물을 아낀다. 특히 방광이 물 저장 탱크처럼 작용해 물을 재흡수할 수 있어 오랫동안 민물 없이도 버틴다.",
+    passage: `The desert tortoise has a simple solution for coping with Death Valley's extreme heat: It avoids it. The slow-moving creature hibernates during the winter and stays in its tunnel for much of the summer, meaning that it spends more than 90 percent of its life immobile. In fact, the tortoise usually only surfaces after a good rain. Then, it gets to work. The tortoise stocks up on water by eating plants and digging holes to collect rain. But to stay supplied with water through its extended hibernation, the reptile relies on something else—its highly sophisticated bladder. Unlike most animals, the tortoise's bladder acts as a holding tank, allowing it to reabsorb water back into its body. Incredibly, a desert tortoise can go a full year without taking in any freshwater at all. And because its bladder is so important to a tortoise's survival, park rangers often remind visitors not to stop and help the slow-movers across the road. Tortoises become so terrified when people pick them up that they empty their bladders, losing their precious water reserves.`,
     choices: [
-      "사막거북의 수분 보존 적응 전략",
-      "사막거북이 빠르게 이동해 포식자를 피하는 방식",
-      "비가 오지 않는 지역에서 식물이 자라지 못하는 이유",
-      "공원 방문객이 동물을 직접 옮겨야 하는 필요성",
-      "겨울잠이 모든 파충류에게 해로운 이유"
+      "The desert tortoise’s adaptation for water conservation",
+      "The desert tortoise’s ability to survive by moving quickly across roads",
+      "The reason visitors should carry desert tortoises to help them save water",
+      "The way desert tortoises avoid heat by drinking freshwater every day",
+      "The importance of summer activity for desert tortoise survival"
     ],
     answerIndex: 0,
-    explanation: "사막거북의 생활 방식과 방광 기능이 수분 보존에 맞춰져 있습니다."
+    explanation: "사막거북은 활동을 줄이고 방광에 물을 저장 및 재흡수하는 방식으로 극한 환경에서 수분을 보존합니다."
   },
   {
     number: 37,
-    title: "37번 지문 핵심 내용",
-    passage: "자전거를 타다가 페달을 멈추면 점점 느려지고, 브레이크를 잡으면 더 빨리 느려진다. 이는 운동 방향의 반대로 작용하는 마찰력과 공기 저항 같은 힘 때문이다.",
+    passage: `Imagine you are pedalling your bicycle on a level road. You stop pedalling: no force is now acting to move you forward. What happens? You gradually slow down. How could you slow down more suddenly, in a shorter distance? By putting the brakes on. Because the brakes change your movement, making you slow down more suddenly, they must be exerting a force on the bicycle and you, as they grip and rub on the wheel-rims. This is the force called friction, which tends to slow down moving things by acting in the direction opposite to movement, that is backwards. Even without the brakes on, there are other friction forces acting on you and your bicycle, which also slow you down. One of these is friction in the wheels rubbing on the axles. Another is air resistance, which you can feel, pushing you backwards as you and the bicycle move forwards. When you apply these ideas to something around you, like a cart, you can see what could be generating friction: mainly the axles rubbing on the body as they rotate.`,
     choices: [
-      "운동을 느리게 하거나 멈추게 하는 마찰력",
-      "자전거 속도를 높이는 페달 회전의 생리학",
-      "도로의 경사가 자전거 색상 선택에 미치는 영향",
-      "공기 저항이 항상 물체를 앞으로 밀어 주는 원리",
-      "브레이크가 없을 때 자전거가 영원히 움직이는 이유"
+      "Friction as the force that slows motion",
+      "The role of pedalling in eliminating all forces on a bicycle",
+      "The way brakes speed up a bicycle by pushing it forward",
+      "The reason air resistance acts in the same direction as movement",
+      "The process by which wheels prevent any contact with axles"
     ],
     answerIndex: 0,
-    explanation: "브레이크, 축의 마찰, 공기 저항이 움직임을 늦추는 힘으로 설명됩니다."
+    explanation: "브레이크, 바퀴와 축의 마찰, 공기 저항처럼 운동 방향의 반대로 작용해 속도를 늦추는 힘을 설명합니다."
   },
   {
     number: 38,
-    title: "38번 지문 핵심 내용",
-    passage: "비선형 디지털 편집은 원하는 장면에 바로 접근하고 장면을 쉽게 추가하거나 삭제할 수 있다. 선형 편집이 타자기로 글을 쓰는 것과 같다면, 비선형 편집은 워드프로세서처럼 수정이 쉽다.",
+    passage: `All editing systems are now nonlinear computer-based systems that allow random access to any video shot or scene without having to fast forward or fast reverse to find it. Nonlinear systems can create a range of special effects, such as slow motion, wipes and dissolves. Another highlight of a digital nonlinear system is its random access process that makes it easy for an editor to find desired shots or scenes without having to spend time fast forwarding or rewinding videotape. With nonlinear editing, shots or scenes can be easily added or removed anywhere in the program, and the computer adjusts the program length automatically. Linear editing was like composing a paper on a typewriter. If a mistake was made or new information needed to be added the whole piece had to be retyped. Nonlinear editing, on the other hand, is like using a word processing program. If a mistake is made, it is easily deleted and fixed with a few keystrokes, and new information can be added easily.`,
     choices: [
-      "선형 편집과 비교한 비선형 편집의 장점",
-      "비디오테이프가 디지털 편집보다 항상 빠른 이유",
-      "영화 편집에서 특수 효과를 금지해야 하는 필요성",
-      "타자기가 현대 영상 제작의 핵심 도구인 이유",
-      "장면 순서를 바꾸면 프로그램 길이가 절대 변하지 않는 원리"
+      "Advantages of nonlinear editing compared to linear editing",
+      "The reasons videotape editing is faster than computer-based editing",
+      "The decline of special effects in modern digital editing systems",
+      "The similarity between nonlinear editing and retyping a whole paper",
+      "The need to remove random access from video editing programs"
     ],
     answerIndex: 0,
-    explanation: "무작위 접근과 쉬운 수정 가능성이 비선형 편집의 장점입니다."
+    explanation: "비선형 편집은 원하는 장면에 바로 접근하고 쉽게 추가, 삭제, 수정할 수 있다는 장점이 중심입니다."
   },
   {
     number: 39,
-    title: "39번 지문 핵심 내용",
-    passage: "도덕적으로 선한 사람을 판단할 때는 행동뿐 아니라 의도와 동기도 중요하다. 그러나 좋은 의도만으로 충분하지 않고, 실제로 해를 막거나 좋은 결과를 내는 것도 어느 정도 필요하다.",
+    passage: `A morally good person is one who does morally bad actions significantly less often than most and does morally good ones significantly more often than most. In judging a person not only her actions but also her intentions and motives are relevant. A morally good person must intend to do morally good actions and intend to avoid morally bad ones. A person who unintentionally prevents harm to others and does not harm them simply because things do not turn out as she intends is not morally good. Although this kind of situation generally occurs only in slapstick movies, it is worth mentioning to avoid the false impression that it is the actual consequences of a person's actions that count toward her being judged morally good or bad. But actual consequences are important. A person who always tries to prevent harm but never does, is not generally thought of as morally good. Of such a person, it may be said that she means well; but, contrary to Kant, some results are necessary before she is regarded as morally good.`,
     choices: [
-      "도덕적 선함 판단에서 의도와 결과의 역할",
-      "도덕 판단에서 실제 행동은 전혀 고려되지 않음",
-      "좋은 결과만 있으면 나쁜 의도도 항상 정당화됨",
-      "희극 영화가 윤리학의 유일한 연구 대상인 이유",
-      "Kant의 견해가 모든 상황에서 완전히 부정되는 이유"
+      "The role of intentions and consequences in moral goodness",
+      "The idea that moral goodness depends only on accidental consequences",
+      "The reason motives should never be considered in moral judgment",
+      "The claim that good intentions alone are always enough for moral goodness",
+      "The use of slapstick movies as the main standard for ethical decisions"
     ],
     answerIndex: 0,
-    explanation: "도덕적 평가에는 의도와 실제 결과가 함께 고려되어야 한다는 내용입니다."
+    explanation: "도덕적 선함을 판단할 때 의도와 동기뿐 아니라 실제 결과도 어느 정도 필요하다는 내용입니다."
   },
   {
     number: 40,
-    title: "40번 지문 핵심 내용",
-    passage: "우리는 사물을 기능과 목적에 따라 기대하는 방식으로 본다. 사진은 카메라처럼 모양과 색을 객관적으로 기록하기 때문에, 인간의 해석적 시각과 달리 낯선 세부를 그대로 보여 줄 수 있다.",
+    passage: `Vision is influenced by our preconceptions about reality. In viewing a scene, we establish unconscious hierarchies that reflect our functional relationship to objects and our momentary priorities. For example, when visualizing a hammer in our mind's eye, we tend to “see” it in profile or at some other “ready for use” angle. One would probably not visualize a hammer as seen from the top so that the handle is hidden by the hammer's head. The functional relationship we have with objects creates visual expectations that interfere with our ability to see “like a camera.” The camera, like the human eye, sees only shapes and colors. It documents the world impartially through a lens that is similar to the eye. When we look at them carefully, photographs are often surprising because they don't interpret confusing details but simply serve them up to us with a mechanical indifference. And because of their flatness, photographs often contain areas that appear as unrecognizable colors and shapes. Our visual perception is shaped by an established hierarchy based on functional relationships, which interrupts our ability to see objects as they truly are, unlike the objective perspective of a camera.`,
     choices: [
-      "인간의 지각과 카메라의 객관적 시각 비교",
-      "카메라가 인간보다 감정을 더 정확히 해석하는 이유",
-      "망치는 위에서 볼 때 가장 쉽게 인식된다는 주장",
-      "사진은 항상 현실을 의도적으로 왜곡한다는 설명",
-      "사물의 기능은 시각적 기대에 영향을 주지 않음"
+      "Human perception vs. camera’s objective view",
+      "The superiority of human vision in recording shapes without interpretation",
+      "The way cameras create functional expectations about familiar objects",
+      "The reason photographs always make confusing details easier to interpret",
+      "The process by which people visualize objects without preconceptions"
     ],
     answerIndex: 0,
-    explanation: "기능적 기대가 개입하는 인간 시각과 기계적으로 기록하는 카메라의 차이를 다룹니다."
+    explanation: "인간은 기능적 관계와 선입견에 따라 대상을 보지만, 카메라는 모양과 색을 비교적 객관적으로 기록한다는 비교입니다."
   },
   {
     number: 41,
-    title: "41번 지문 핵심 내용",
-    passage: "판매원이 고객에게 '도와드릴까요?'라고 묻는 말은 대화를 이끌기보다 고객을 방어적으로 만들고 흔히 '괜찮습니다'라는 거절을 불러온다.",
+    passage: `”May I help you?” are the worst four words that a retail salesperson can utter because they don’t encourage the customer to talk and put them on the defensive. The four words usually draw out a negative response that stops cold a sales transaction. Examples of better questions to use when approaching customers are “Is there anything in particular that you are looking for?” and “Are you shopping for a gift?” If a fashion salesperson approached you with “May I help you?” chances are you would feel the salesperson didn’t care. This line is a rote approach that is so overused by untrained and uninterested salespeople. In fact, most of us shudder in horror on hearing these words. The very meaning of the question “May I help you?” implies that the customer is in trouble of some sort and needs rescuing. This almost always puts the customer on the defense. ”No, thank you“ is usually the immediate response, even if the customer is actually in need of assistance.`,
     choices: [
-      "판매 상황에서 '도와드릴까요?'라는 접근이 비효율적인 이유",
-      "고객이 매장에서 반드시 즉시 구매해야 하는 이유",
-      "판매원이 제품 가격을 먼저 말하지 말아야 하는 법적 근거",
-      "소매점에서 명함 사용을 금지해야 하는 필요성",
-      "패션 매장 고객이 질문을 싫어하지 않는다는 주장"
+      "Why “May I help you?” is ineffective in sales interactions",
+      "How retail salespeople can make customers feel rescued and dependent",
+      "Why customers always prefer short yes-or-no questions in stores",
+      "How fashion salespeople benefit from using memorized opening lines",
+      "Why negative customer responses usually improve sales transactions"
     ],
     answerIndex: 0,
-    explanation: "이 질문은 고객을 압박하고 방어적으로 만들어 판매 대화를 멈추게 합니다."
+    explanation: "‘May I help you?’는 고객을 방어적으로 만들고 대화를 끊기 쉬워 판매 상황에서 비효율적이라는 내용입니다."
   },
   {
     number: 42,
-    title: "42번 지문 핵심 내용",
-    passage: "고객에게는 서두르거나 몰린다는 느낌이 없어야 한다. 판매원은 더 구체적이고 편안한 질문을 하거나, 고객이 혼자 둘러보고 싶다면 명함을 주고 필요할 때 접근 가능하게 있어야 한다.",
+    passage: `The subconscious thought by the customer is often “I’m smart enough to figure out what I want, and I don’t need your help!” If customers feel pressured or cornered, then salespeople won’t make any sales. The approach has to promote a comfortable environment that makes customers feel there is no rush. Furthermore, if customers just want to look around, they should feel that it is all right to do so. In situations where customers really do want to look around on their own, salespeople should give customers their business cards and keep themselves accessible in case customers have questions or concerns.`,
     choices: [
-      "고객이 편안하게 느끼도록 압박 없는 판매 접근을 해야 함",
-      "모든 고객에게 같은 문장을 반복해야 판매가 늘어남",
-      "고객이 혼자 둘러보는 행동을 즉시 막아야 함",
-      "판매원은 고객 질문을 줄이기 위해 자리를 떠야 함",
-      "매장에서는 선물 구매 고객에게만 응대해야 함"
+      "The need for a comfortable, pressure-free sales approach",
+      "The importance of forcing customers to make quick buying decisions",
+      "The reason salespeople should avoid being accessible to customers",
+      "The advantage of cornering customers who only want to look around",
+      "The belief that customers should never shop without direct assistance"
     ],
     answerIndex: 0,
-    explanation: "효과적인 판매 접근은 고객이 부담 없이 말하고 둘러볼 수 있게 하는 것입니다."
+    explanation: "고객이 압박감을 느끼지 않도록 편안한 환경을 만들고 필요할 때만 도움을 줄 수 있어야 한다는 내용입니다."
   }
 ];
 
@@ -343,14 +321,14 @@ function renderQuestion() {
 
   hasAnswered = false;
   progressLabel.textContent = `${currentQuestionIndex + 1} / ${quizData.length}`;
-  questionNumberLabel.textContent = `문항 ${question.number}`;
-  totalCountLabel.textContent = `총 ${quizData.length}문제`;
-  questionTitle.textContent = question.title;
+  questionNumberLabel.textContent = `Question ${question.number}`;
+  totalCountLabel.textContent = `Total ${quizData.length}`;
+  questionTitle.textContent = "What is the main topic of the passage?";
   passageText.textContent = question.passage;
   choiceList.innerHTML = "";
   resultBox.hidden = true;
   nextButton.hidden = true;
-  nextButton.textContent = currentQuestionIndex === quizData.length - 1 ? "결과 보기" : "다음 문제";
+  nextButton.textContent = currentQuestionIndex === quizData.length - 1 ? "View Results" : "Next Question";
 
   question.choices.forEach((choice, index) => {
     const button = document.createElement("button");
@@ -390,10 +368,10 @@ function checkAnswer(selectedIndex) {
 
   resultBox.hidden = false;
   nextButton.hidden = false;
-  resultStatus.textContent = isCorrect ? "정답입니다!" : "오답입니다.";
+  resultStatus.textContent = isCorrect ? "✔ Correct!" : "✘ Incorrect!";
   resultStatus.className = `result-status ${isCorrect ? "correct" : "wrong"}`;
-  answerText.textContent = `정답 주제: ${question.choices[question.answerIndex]}`;
-  explanationText.textContent = `해설: ${question.explanation}`;
+  answerText.textContent = `Answer: ${question.choices[question.answerIndex]}`;
+  explanationText.textContent = `한국어 해설: ${question.explanation}`;
 }
 
 function goToNextQuestion() {
@@ -412,7 +390,7 @@ function showFinalResult() {
 
   questionPanel.hidden = true;
   finalScreen.hidden = false;
-  progressLabel.textContent = "결과";
+  progressLabel.textContent = "Results";
   scoreText.textContent = `${score}점`;
   totalText.textContent = `${quizData.length}문제`;
   rateText.textContent = `${rate}%`;
@@ -427,8 +405,8 @@ function restartQuiz() {
   renderQuestion();
 }
 
+introScreen.addEventListener("click", showGameScreen);
 nextButton.addEventListener("click", goToNextQuestion);
 restartButton.addEventListener("click", restartQuiz);
 
 renderQuestion();
-window.setTimeout(showGameScreen, 2000);
