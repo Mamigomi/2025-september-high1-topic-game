@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2025년 9월 고1모의고사 주제찾기 테스트 - 미키박영어</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app" aria-live="polite">
+    <section id="introScreen" class="intro-screen">
+      <div class="intro-content">
+        <p class="intro-brand">미키박영어</p>
+        <h1>2025년 9월 고1모의고사 주제찾기 테스트</h1>
+      </div>
+    </section>
+
+    <section id="gameScreen" class="game-screen is-hidden">
+      <header class="game-header">
+        <div>
+          <p id="progressLabel" class="eyebrow">주제찾기</p>
+          <h2>2025년 9월 고1모의고사 주제찾기 테스트</h2>
+        </div>
+        <div class="corner-logo" aria-label="미키박영어 로고">미키박영어</div>
+      </header>
+
+      <article class="question-panel">
+        <div class="question-meta">
+          <span id="questionNumberLabel">문항 18</span>
+          <span id="totalCountLabel">총 22문제</span>
+        </div>
+
+        <h3 id="questionTitle"></h3>
+        <p id="passageText" class="passage"></p>
+
+        <div class="choice-area">
+          <p class="choice-title">주제로 가장 알맞은 것을 고르세요.</p>
+          <div id="choiceList" class="choice-list"></div>
+        </div>
+
+        <div id="resultBox" class="result-box" hidden>
+          <p id="resultStatus" class="result-status"></p>
+          <p id="answerText" class="answer-text"></p>
+          <p id="explanationText" class="explanation-text"></p>
+        </div>
+
+        <button id="nextButton" class="next-button" type="button" hidden>다음 문제</button>
+      </article>
+
+      <section id="finalScreen" class="final-screen" hidden>
+        <p class="final-brand">미키박영어</p>
+        <h3>2025년 9월 고1모의고사 주제찾기 테스트 결과</h3>
+        <div class="score-grid">
+          <div>
+            <span>점수</span>
+            <strong id="scoreText">0점</strong>
+          </div>
+          <div>
+            <span>총 문제 수</span>
+            <strong id="totalText">22문제</strong>
+          </div>
+          <div>
+            <span>정답률</span>
+            <strong id="rateText">0%</strong>
+          </div>
+        </div>
+        <button id="restartButton" class="next-button" type="button">다시 풀기</button>
+      </section>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
